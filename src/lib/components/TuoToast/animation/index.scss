@@ -1,0 +1,15 @@
+/* bottom-center */
+@keyframes toast-open {
+  0% { transform: translate(-50%, 100%) }
+  100% { transform: translate(-50%, -16px) }
+}
+
+@keyframes toast-stop {
+  0% { transform: translate(-50%, -16px) }
+  100% { transform: translate(-50%, -16px) }
+}
+
+@keyframes toast-close {
+  0% { transform: translate(-50%, -16px) }
+  100% { transform: translate(-50%, 100%) }
+}

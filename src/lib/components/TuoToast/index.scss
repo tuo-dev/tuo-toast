@@ -1,0 +1,26 @@
+// @import './animation/index';
+
+.toast-container {
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  box-sizing: border-box;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  padding: 0 16px;
+  overflow: hidden;
+  background-color: #808080;
+  border-radius: 4px;
+  color: #fff;
+  animation-play-state: running;
+  animation-timing-function: ease-out;
+  animation-fill-mode: both;
+
+  .close-icon {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
